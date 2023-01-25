@@ -1,0 +1,270 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background: #008500;
+
+}
+.header1 {
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background: #FF4040;
+
+}
+
+.menu-item {
+    list-style: none;
+
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.container {
+    max-width: 1240px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.banner-title,
+.banner-description {
+    text-align: center;
+    color: white;
+
+}
+
+.banner-title {
+    font-size: 48px;
+
+}
+
+.banner-section {
+    width: 100%;
+    padding: 150px 0;
+    background: url(img/green.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.banner-section1 {
+    width: 100%;
+    padding: 150px 0;
+    background: url(img/ZELEN.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.banner-section2 {
+    width: 100%;
+    padding: 150px 0;
+    background: url(img/prilavokfrukti.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.cards-section {
+    padding: 50px 0;
+
+}
+
+.cards-title,
+.cards-description {
+    color: #008500;
+    text-align: center;
+    font-size: 75px;
+
+}
+.cards-description1, .cards-title1 {
+    color: #FF4040;
+    text-align: center;
+    font-size: 75px;
+
+}
+
+.card {
+    width: 35%;
+    padding: 15px;
+    margin: 10px;
+    background: white;
+    box-shadow: 0px 2px 7px 0px #6EE768;
+
+}
+.card1 {
+    width: 35%;
+    padding: 15px;
+    margin: 10px;
+    background: white;
+    box-shadow: 0px 2px 7px 0px #FF0000;
+
+}
+
+.card-link {
+    text-decoration: none;
+    color: white;
+
+}
+
+.card-button {
+    text-align: center;
+    background: #008500;
+    padding: 10px 70px;
+    border-radius: 10px;
+
+}
+.card-button1 {
+    text-align: center;
+    background: #FF4040;
+    padding: 10px 70px;
+    border-radius: 10px;
+
+}
+
+.card-title,
+.card-text {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background: #008500;
+    background-size: cover;
+    padding: 100px 0;
+
+}
+.footer1 {
+    background: #FF4040;
+    background-size: cover;
+    padding: 100px 0;
+
+}
+
+.copyright {
+    color: white;
+
+}
+
+.card-img {
+    margin: 0 1%;
+
+
+}
+
+.card:hover {
+    box-shadow: 0px 2px 20px 0px #6EE768;
+
+}
+.card1:hover {
+    box-shadow: 0px 2px 20px 0px #FF0000;
+
+}
+
+.logo-title,
+.menu,
+.header-logo {
+    text-align: center
+}
+
+.header-menu {
+    flex-grow: 3;
+}
+
+.cards-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-logo {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+.footer-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.footer-search-input {
+    height: 40px;
+    flex-grow: 3;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.footer-search-button {
+    height: 40px;
+    flex-grow: 2;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 20px;
+}
+.footer-search-button1 {
+    height: 40px;
+    flex-grow: 2;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.footer-search-button:hover {
+    border: 1px solid #6EE768;
+}
+.footer-search-button1:hover {
+    border: 1px solid #FF0000;
+}
+
+
+.card-button:hover {
+    border: 1px solid #008500;
+    cursor: pointer;
+    background: #fff;
+}
+.card-button1:hover {
+    border: 1px solid #FF4040;
+    cursor: pointer;
+    background: #fff;
+}
+
+.card-button:hover a {
+    color: #008500;
+}
+.card-button1:hover a {
+    color: #FF4040;
+}
+
+.card-text {
+    text-align: center;
+}
